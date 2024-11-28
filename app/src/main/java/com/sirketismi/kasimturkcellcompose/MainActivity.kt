@@ -48,11 +48,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             KasimTurkcellComposeTheme {
-                Column(modifier = Modifier.padding(horizontal = 10.dp, vertical = 60.dp)) {
-                    PasswordTextField()
 
-                    CustomText()
-                }
+                ScaffoldDemo()
 
             }
 
